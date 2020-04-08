@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+.plain-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.header-links{
+    display: flex;
+}
+.header-links li {
+    padding-right: 20px;
+}
