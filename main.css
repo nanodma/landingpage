@@ -65,3 +65,32 @@ header {
     font-weight: bold;
     border: none;
 }
+
+.whole-table {
+    display:flex;
+    align-items: center;
+}
+  
+  .features-table {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    padding: 60px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .box {
+    color: #333333;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+    justify-items: center;
+  }
+  .titlefeature {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 40px;
+  }
