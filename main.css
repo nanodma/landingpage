@@ -34,6 +34,7 @@ header {
 }
 #first-section img {
     width: 400px;
+    margin-bottom: -200px;
 }
 
 .paragraph-container {
@@ -73,6 +74,9 @@ header {
     line-height: 1.5;
 }
 
+h2.section-title {
+    margin-top: 250px;
+}
 .section-subtitle {
     color: #aaaaaa;
     font-weight: normal;
@@ -87,27 +91,27 @@ header {
     align-items: center;
 }
   
-  .features-table {
+.features-table {
     display: flex;
     color: #444;
     padding: 0 50px;
   }
   
-  .titlefeature {
+.titlefeature {
     border-radius: 5px;
     padding: 20px;
     font-size: 40px;
   }
 
-  .text-center {
+.text-center {
       text-align: center;
   }
-  .icon-feature {
+.icon-feature {
     font-size: 47px;
     color: #49B96F;
     margin-bottom: 30px;
   }
-  .table-title {
+.table-title {
     color: #333333;
     font-size: 18px;
     font-weight: 400;
@@ -115,7 +119,7 @@ header {
     margin-bottom: 24px;
     text-transform: capitalize;
   }
-  .table-text {
+.table-text {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -124,3 +128,58 @@ header {
     padding-left: 10px;
     color: #aaaaaa;
   }
+
+  .separator {
+      margin: 100px 50px;
+      color: #aaaaaa;
+      line-height: 1.5;
+      opacity: 0.5;
+  }
+
+  #chapters {
+    padding-bottom: 100px;
+    overflow: hidden;
+  }
+
+  #table-two-column-one {
+      padding-right: 40px;
+  }
+
+  .section-title-two {
+    font-family: "Ubuntu", sans-serif;
+    color: #222222;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.section-subtitle-two {
+    color: #aaaaaa;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.features-sub-table {
+    display: flex;
+    color: #444;
+}
+
+.table-two-sub-column {
+    padding-left: 20px;
+}
+
+.table-two-subtitle {
+    font-family: "Ubuntu", sans-serif;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 24px;
+    text-transform: capitatalize;
+}
